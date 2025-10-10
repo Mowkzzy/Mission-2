@@ -12,15 +12,24 @@ function calcule_moyenne(){
 
     if(moyenne < 10){
         document.write("Redoublant");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
     else if(moyenne < 12){
         document.write("Admis – Passable");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
     else if(moyenne < 14){
         document.write("Admis – Bien");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
+        
     }
     else{
         document.write(" Admis – Très bien ");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
 }
 
@@ -31,14 +40,20 @@ function temperature() {
     if(n1 < 10){
         document.write("Froid");
         document.body.style.background = "blue";
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
     else if(n1 < 25){
         document.write("Normale");
         document.body.style.background = "green";
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     } 
     else{
         document.write("Chaud");
         document.body.style.background = "red";
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }   
 }
 
@@ -51,10 +66,14 @@ function grand(){
     if(n1 > n2){
         document.write("Voici le plus grands : " + n1 + "<br>");
         document.write("Voici le plus petit : " + n2 + "<br>");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
     else{
         document.write("Voici le plus grands : " + n2 + "<br>");
         document.write("Voici le plus petit : " + n1 + "<br>");
+         document.write("<br>")
+         document.write('<a href="cal.html">RETOUR</a>');
     }
 
 }
